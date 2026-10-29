@@ -1,0 +1,11 @@
+{
+  "name": "field-service-event-inbox",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/field-service-webhook.ts",
+    "test": "node --experimental-strip-types --test src/field-service-webhook.test.ts"
+  },
+  "dependencies": { "zod": "^3.23.8" }
+}
